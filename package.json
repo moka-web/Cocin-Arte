@@ -1,0 +1,23 @@
+{
+  "name": "cocin-arte",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moka-web/Cocin-Arte.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moka-web/Cocin-Arte/issues"
+  },
+  "homepage": "https://github.com/moka-web/Cocin-Arte#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
