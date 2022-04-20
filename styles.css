@@ -7,6 +7,7 @@
     background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .bg-light {
@@ -16,4 +17,25 @@
 
 .navbar-toggler{
     border: none;
+}
+.incio_section{
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+.title{
+    font-size: 5rem;
+}
+.section_servicios{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+}
+
+.section_servicios_article{
+    width: 25%;
+    height: 18rem;
+    border: solid black;
+    margin: 1.5rem;
+
 }
