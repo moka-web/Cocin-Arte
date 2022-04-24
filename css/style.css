@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body_background {
+  background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.body_background .bg-light {
+  background-color: transparent !important;
+}
+.body_background .bg-light .navbar-toggler {
+  border: none;
+}
+.body_background .incio_section {
+  margin-top: 15rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.body_background .incio_section .title {
+  font-size: 5rem;
+}
+.body_background .section_servicios {
+  margin-top: 15rem;
+  display: flex;
+  justify-content: center;
+}
+.body_background .section_servicios .section_servicios_article {
+  width: 25%;
+  height: 18rem;
+  border: solid black;
+  margin: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */
