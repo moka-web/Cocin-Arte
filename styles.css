@@ -25,6 +25,17 @@
 }
 .title{
     font-size: 5rem;
+ 
+}
+
+.choclo{
+    bottom: 10rem;
+    width: 40%;
+    height: 40%;
+    z-index: -1;
+    position: absolute;
+    position: sticky;
+    animation-delay: 2s;
 }
 .section_servicios{
     margin-top: 15rem;
