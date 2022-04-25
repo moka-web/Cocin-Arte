@@ -5,27 +5,37 @@
 
 .body_background {
   background-image: url("https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: 100%;
 }
+
 .body_background .bg-light {
   background-color: transparent !important;
 }
+
 .body_background .bg-light .navbar-toggler {
   border: none;
 }
+
 .body_background .incio_section {
   margin-top: 15rem;
   height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .body_background .incio_section .title {
   font-size: 5rem;
 }
+
 .body_background .incio_section p {
   border: solid black;
 }
+
 .body_background .choclo {
   bottom: 10rem;
   width: 40%;
@@ -33,42 +43,51 @@
   z-index: -1;
   position: absolute;
 }
+
 .body_background .nosotros_section {
   margin-top: 5rem;
 }
+
+.body_background .nosotros_section div {
+  height: 50vh;
+}
+
 .body_background .nosotros_section div img {
   border: solid red;
   width: 100%;
   height: 40vh;
 }
+
 .body_background .nosotros_section div p {
   border: solid blue;
-  height: 40vh;
 }
+
 .body_background .section_servicios {
   margin-top: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 .body_background .section_servicios .section_servicios_article {
   width: 100%;
   height: 25rem;
   border: solid black;
   margin: 1.5rem;
 }
+
 .body_background .section_servicios .section_servicios_article img {
   border: solid red;
   width: 50%;
   height: 100%;
 }
+
 .body_background .section_servicios .section_servicios_article p {
   border: solid blue;
   width: 50%;
   height: 100%;
 }
-.body_background .section_Footer {
-  background-image: url(https://www.giftrocket.com/assets/wave_tile_2-ceaa7ade004328edadd4289872d7b9e9b54ce0d7effdd9fe24bdeeaf564b1e2d.png);
-  height: 600px;
-}
-
 /*# sourceMappingURL=style.css.map */

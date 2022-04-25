@@ -1,10 +1,12 @@
 .body_background{
     background-image: url('https://images.pexels.com/photos/1939485/pexels-photo-1939485.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
-    background-repeat: no-repeat;
+    background-repeat: repeat;
     background-size: 100%;
+    
     
     .bg-light {
         background-color: transparent !important;
+       
     
         .navbar-toggler{
             border: none;
@@ -14,27 +16,77 @@
 
     .incio_section{
       margin-top: 15rem;
-      height: 100vh;
+      height: 50vh;
       display: flex;
       justify-content: center;
-
       .title{
         font-size: 5rem;
+        
+        }
+        p{
+            border: solid black;
+
+        }
+    }
+
+    .choclo{
+       
+        bottom: 10rem;
+        width: 40%;
+        height: 40%;
+        z-index: -1;
+        position: absolute;
+       
+    }
+
+    .nosotros_section{
+        margin-top: 5rem;
+        div{
+            
+            img{
+                border: solid red;
+                width: 100%;
+                height: 40vh;
+            }
+            p{
+                border: solid blue;
+                height: 40vh;
+
+            }
         }
     }
 
     .section_servicios{
-        margin-top: 15rem;
+        margin-top: 5rem;
         display: flex;
         justify-content: center;
 
         .section_servicios_article{
-            width: 25%;
-            height: 18rem;
+            width: 100%;
+            height: 25rem;
             border: solid black;
             margin: 1.5rem;
+            
+            img{
+                border: solid red;
+                width: 50%;
+                height: 100%;
+            }
+
+            p{
+                border: solid blue;
+                width: 50%;
+                height: 100%;
+            }
+
         }
     }
+
+
+    .section_Footer{
+          background-image: url(https://www.giftrocket.com/assets/wave_tile_2-ceaa7ade004328edadd4289872d7b9e9b54ce0d7effdd9fe24bdeeaf564b1e2d.png) ;
+            height: 600px;
+        }
     
 }
 
